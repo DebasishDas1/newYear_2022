@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debasish Das</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css">
+    <!--Link Google font to this file-->
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Pacifico&display=swap" rel="stylesheet">
+    <!-- Link css file -->
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+
+    <img src="./img/earth.jpg" alt=""  class="img-fluid">
+    <div class="container text-center wellcome">
+        <br>
+         Wellcome to the world of fun
+        <div class="player">Debasish Das</div>
+    </div>
+
+    <div class="container">
+        <span class="glass_font">Games</span>
+        <div class="row">
+
+            <div class="col-sm-4">
+                <div class="card"> 
+                    <div class="card_img">
+                        <img src="./img/paper.png" alt="">
+                        <img src="./img/rock.png" alt="">
+                        <img src="./img/scissor.png" alt="">
+                    </div>
+                    <h2>Rock Paper Scissors</h2>
+                    <button onclick="goto_RPS()">Let's play</button>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="card">
+                    <h2>Snake Game</h2>
+                    <button onclick="goto_snake()">Let's play</button>
+                </div>
+            </div>
+
+
+            <div class="col-sm-4">
+                <div class="card">
+                    <h2>TIC TAC TOE</h2>
+                    <button onclick="goto_Tic_tac_toe()">Let's play</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-sm-4">
+                <div class="card">
+                    <h2>Snake Game</h2>
+                    <button onclick="goto_snake()">Let's play</button>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="card">
+                    <h2>Ludo</h2>
+                    <button onclick="goto_ludo()">Let's play</button>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="card">
+                    <h2>Dino</h2>
+                    <button onclick="goto_dino()">Let's play</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Link JS to this file-->
+    <script src="./navigator.js"></script>     
+    <script src="./reusealle_methods.js"></script>  
+    <script src="./Dina_game/dino.html"></script>  
+</body>
+</html>

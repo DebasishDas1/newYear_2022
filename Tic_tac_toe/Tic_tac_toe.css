@@ -1,0 +1,40 @@
+#game_board {
+    height: 90vmin;
+    width: 90vmin;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-rows: repeat(3, 32%);
+    grid-template-columns: repeat(3, 32%);
+    border-radius: 25px;
+    padding: 2rem;
+    background-color: rgb(59, 57, 57);
+}
+.option_button {
+    margin: 1rem;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 15vmin;
+    background-color: blue;
+}
+.cell {
+    background-color: white;
+    border-radius: 25px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 7vmax;
+    font-family: 'Caveat', cursive;
+}
+.cell:hover {
+    box-shadow: 5px 5px 15px 0 greenyellow, -5px -5px 15px 0 greenyellow;
+    color: chartreuse;
+}
+.chosen_cell {
+    border-radius: 25px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 7vmax;
+}

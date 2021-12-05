@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css">
+    <!--Link NY21 CSS to this file-->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet"> 
+    <!-- Link css file -->
+    <link rel="stylesheet" href="./Rock_Paper_Scissors.css"/> 
+    <link rel="stylesheet" href="../index.css">
+
+</head>
+<body>
+    <div class="container text-center">
+        <button onclick="goto_home()">Home</button>
+        <br><br>
+        <h1>Rock Paper Scissors</h1>
+        <div class="card">
+            <div class="row justify-content-evenly">
+                <div class="col-sm-4">
+                    <br>
+                    <h1>Choose an option</h1>
+                    <br>
+                    <input type="image" src="../img/rock.png" height="120px" class="rock ">
+                    <br>
+                    <input type="image" src="../img/paper.png" height="100px" class="paper">
+                    <br>
+                    <input type="image" src="../img/scissor.png" height="100px" class="sciccors ">
+                </div>
+                <div class="col-sm-4">
+                    <br>
+                    <img class="pcBlock" src="../img/question.jpeg"  height="200px"  alt="">
+                    <br>
+                    <img class="playerBlock" src="../img/question.jpeg" height="200px" alt="">
+                    <br><br><br>
+                    <h1 class="winner">Lets have sum fun</h1>
+                </div>
+                <div class="col-sm-4">
+                    <img src="../img/iu-removebg-preview.png"  alt="" >
+                    <h6 class="computerScore">0</h6>
+                    <h6 class="playerScore">0</h6>
+                    <h1 class="player">Player</h1>
+                </div>
+            </div>
+        </div>
+        <h3>It is a 5 point game</h3>
+        <br>
+        <p><i>Rock, Paper, Scissors (aka "Ro-Sham-Bo"; janken; "Bato, Bato, Pick"; and "Scissors, Paper, Stone") is a simple hand game with many names and variations. It is played around the world and is commonly used as a way of coming to decisions. In some cases is even played for sport. The rules require that competing players use one hand to form one of three shapes at an agreed-upon time. The person that plays the strongest “object” is the winner of the game. It's that easy! Rock, Paper, Scissors is a simple game that anybody can play and win. There is no intrinsic advantage to the stronger, older, or more experienced opponent. </i></p>
+        <br>
+        <h2>What are the rules of RPS?</h2>
+        <br>
+        <p>Although the game has a lot of complexity to it, the rules to play it are pretty simple.
+            The game is played where players deliver hand signals that will represent the elements of the game; rock, paper and scissors. The outcome of the game is determined by 3 simple rules:
+            <ul>
+                <li>Rock wins against scissors.</li>
+                <li>Scissors win against paper.</li>
+                <li>Paper wins against rock.</li>            
+            </ul>
+        </p>
+    </div>
+
+    <!-- Result section -->
+    <div class="reuslt glass ">
+        <div class="reuslt_text"></div>
+        <button onclick="reload()">Play again</button>
+    </div>
+  
+    <!-- Link NY21 JS to this file-->
+    <script src="./Rock_Paper_Scissors.js"></script>   
+    <script src="../navigator.js"></script>   
+    <script src="../reusealle_methods.js"></script>  
+    
+</body>
+</html>

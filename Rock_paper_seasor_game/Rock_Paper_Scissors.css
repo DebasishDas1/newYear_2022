@@ -1,0 +1,22 @@
+.playerBlock {
+    margin: 2%;
+    border-radius: 25px;
+    box-shadow: 5px 5px 15px 0 #5e79ee, -5px -5px 15px 0 #5e79ee;
+}
+.pc {
+    color: #e63939;
+    padding: 30px;
+}
+.pcBlock {
+    margin: 2%;
+    border-radius: 25px;
+    box-shadow: 5px 5px 15px 0 #e63939, -5px -5px 15px 0 #e63939;
+}
+.playerScore {
+    font-size: 5pc;
+    color: #5e79ee;
+}
+.computerScore {
+    font-size: 5pc;
+    color: #e63939;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=D, initial-scale=1.0">
+    <title>Dino</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css">
+    <!-- Google icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <!--Link Google font to this file-->
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet"> 
+    <!-- Link css file -->
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="./dino.css">
+</head>
+<body>
+
+    <div class="container text-center">
+        <button onclick="goto_home()">Home</button>
+        <h1>Dino</h1>
+    </div>
+
+    
+    <div class="board container">
+        <div class="score"></div>
+        <div class="container">
+            <div class="material-icons me">skateboarding</div>
+            <div class="material-icons obstacle">park</div>
+        </div>
+        <div class="road glass"></div>
+    </div>
+   
+    <br>
+    <div class="jump_button glass container" onclick="jump_animation()">Jump</div>
+    
+
+
+    <!-- Result section -->
+    <div class="reuslt glass">
+        <div class="reuslt_text"></div>
+        <button onclick="reload()">Play again</button>
+        <button onclick="goto_home()">Home</button>
+    </div>
+
+  <!-- Anime JS -->
+  <script src="https://cdn.jsdelivr.net/npm/animejs@3.0.1/lib/anime.min.js"></script>
+    <script src="../navigator.js"></script>
+    <script src="../reusealle_methods.js"></script>  
+    <script src="./dino.js"></script>
+
+</body>
+</html>

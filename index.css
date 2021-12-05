@@ -1,0 +1,79 @@
+* {
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background-color: black;
+    color: white;
+}
+.wellcome {
+    font-size: 9vmin;
+    height: 60vmin;
+    width: 100vmin;
+    font-family: 'Dancing Script', cursive;
+}
+.card {
+    width: 90%;
+    margin: 5%;
+    padding: 5%;
+    border-radius: 25px; 
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card_img {
+    display: flex;
+    justify-content: center;
+    height: 90px;
+}
+.glass {
+    background-color: white;
+    background: linear-gradient(
+        to right bottom,
+        rgb(255, 255, 255, 0.7),
+        rgb(255, 255, 255, 0.3)
+    );
+    z-index: 2;
+    backdrop-filter: blur(100rem);
+}
+.glass_font {
+    background: linear-gradient(
+        to right bottom,
+        hsla(0, 0%, 100%, 0.7),
+        hsla(0, 0%, 100%, 0.13)
+    );
+    backdrop-filter: blur(100rem);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 9vmin;
+}
+button {
+    width: 50%;
+    padding: 1%;
+    border-radius: 66% 34% 71% 29% / 37% 71% 29% 63% ;
+    background-color: white;
+    color: black;
+    font-size: 150%;
+    font-family: 'Caveat', cursive;
+}
+.player {
+    color: #5e79ee;
+    padding: 30px;
+    font-family: 'Dancing Script', cursive;
+}
+.reuslt {
+    z-index: 3;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: black;
+    font-size: 3rem;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

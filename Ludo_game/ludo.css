@@ -1,0 +1,6 @@
+#game_board {
+    height: 90vmin;
+    width: 90vmin;
+    border-radius: 25px;
+    padding: 2rem;
+}
